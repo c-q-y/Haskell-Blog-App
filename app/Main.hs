@@ -1,8 +1,5 @@
 module Main where
-
-import qualified MyLib (someFunc)
+import BlogApp.Core as B
 
 main :: IO ()
-main = do
-  putStrLn "Hello, Haskell!"
-  MyLib.someFunc
+main = B.main
